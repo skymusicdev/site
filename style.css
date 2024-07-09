@@ -1,0 +1,25 @@
+html,
+body {
+	overflow-x: hidden;
+}
+
+body {
+	background-color: rgb(21 23 25);
+}
+
+.col-xxl-8 ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.col-xxl-8 ul li:before {
+	content: "✓";
+	color: rgb(30 214 96);
+	padding-right: 6px;
+}
+
+@media (max-width: 768px) {
+	.mobile-mb {
+		margin-bottom: 0.5rem;
+	}
+}
